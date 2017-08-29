@@ -8,7 +8,9 @@ gulp.task('karma', function(done) {
     configFile: __dirname + '/karma.conf.js',
     singleRun: true,
     browsers: ['Firefox', 'Chrome']
-  }, done);
+  }, function() {
+    done();
+  });
 });
 
 gulp.task('build-files', function() {
