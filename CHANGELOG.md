@@ -1,3 +1,25 @@
+<a name="1.3.8"></a>
+# 1.3.8 (2017-08-29)
+
+
+## Bug Fixes
+
+- karma gulp script
+ ([cd243fee](https://github.com/ocombe/angular-localForage/commit/cd243fee929c074edff90d49dcc46686f0cfb0b7))
+- instance() function with no argument returns global localforage instance.
+ ([197d7e3c](https://github.com/ocombe/angular-localForage/commit/197d7e3ca55b5b3f31fc3aabb741a91d114622e1))
+- redundant triggerDigest is removed.
+ ([4421f210](https://github.com/ocombe/angular-localForage/commit/4421f2104902af95924248a013161f03c13ab8c2))
+- storeName can now be used in instances
+ ([0503e195](https://github.com/ocombe/angular-localForage/commit/0503e1951085be54ce7769eb6261422f4ed24676))
+
+
+## Documentation
+
+- multiple instances usage changed.
+ ([45765546](https://github.com/ocombe/angular-localForage/commit/45765546d40baee0079f99b389484f57dcb82439))
+
+
 <a name="1.3.7"></a>
 # 1.3.7 (2017-05-12)
 
